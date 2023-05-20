@@ -1,0 +1,74 @@
+body {
+	background-image: url("https://4.bp.blogspot.com/-BGvqLpNgClI/TtmGBI5S0eI/AAAAAAAAAMw/3mAcRdn2FJ0/s1600/Stars_1.jpg");
+	color: white;
+}
+::-moz-selection {
+  color: Black;
+	background: white;}
+p {
+	text-align: center;
+	background-color:black;
+}
+p1 {
+	background-color:black;
+	
+}
+li{
+	background-color:black;
+}
+div, iframe {
+    width: 500px;
+    height: 300px;
+    margin: 0 auto;
+    background-color: black;
+	display:block;
+}
+h1.inset{
+	border-style: inset;
+	border-color: black;
+}
+h1.dotted{
+	border-style: dotted;
+	border-color: black;
+}
+h1{
+	color: white;
+}
+
+.topnav {
+	overflow: hidden;
+	background-color: black;
+	height: 10;
+	width: 10;
+	width: 50%;
+	height: 10%;
+}
+
+.topnav a {
+	float: center;
+	display: block;
+	color: #f2f2f2;
+	text-align: center;
+	padding: 20px 22px;
+}
+
+.topnav a:hover {
+	background-color: white;
+	color: black;
+} 
+
+.input {
+	border: none;
+	outline: none;
+	border-radius: 30px;
+	padding: 10px 10px;
+	background-color: #ccc;
+	transition: 300ms ease-in-out;
+}
+
+.input:focus {
+	background-color: white;
+	transform: scale(1.002);
+	box-shadow: 3px 3px 10px #969696,
+             -3px -3px 10px #ffffff;
+}
